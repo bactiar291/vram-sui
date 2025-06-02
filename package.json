@@ -1,0 +1,23 @@
+{
+  "name": "vram-sui-bot",
+  "version": "1.0.0",
+  "description": "Script untuk membeli token ANAM01 menggunakan VRAM di jaringan Sui Testnet.",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "sui",
+    "blockchain",
+    "token",
+    "anam01",
+    "vram"
+  ],
+  "author": "bactiar291",
+  "license": "MIT",
+  "dependencies": {
+    "@mysten/sui.js": "^0.52.0",
+    "dotenv": "^16.3.1"
+  }
+}
